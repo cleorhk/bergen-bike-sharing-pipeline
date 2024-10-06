@@ -1,0 +1,200 @@
+[0m08:29:03.085016 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x781141056810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x781141055550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x781141056750>]}
+
+
+============================== 08:29:03.088277 | 23061c84-b9a2-4c47-b97b-a737de03ed08 ==============================
+[0m08:29:03.088277 [info ] [MainThread]: Running with dbt=1.9.0-b1
+[0m08:29:03.089036 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/ubuntu1234/.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m08:29:03.097129 [info ] [MainThread]: dbt version: 1.9.0-b1
+[0m08:29:03.097694 [info ] [MainThread]: python version: 3.11.6
+[0m08:29:03.098117 [info ] [MainThread]: python path: /home/ubuntu1234/Desktop/coding/bergen_bike_pipeline/venv/bin/python3
+[0m08:29:03.098496 [info ] [MainThread]: os info: Linux-6.5.0-44-generic-x86_64-with-glibc2.38
+[0m08:29:03.162274 [info ] [MainThread]: Using profiles dir at /home/ubuntu1234/.dbt
+[0m08:29:03.162872 [info ] [MainThread]: Using profiles.yml file at /home/ubuntu1234/.dbt/profiles.yml
+[0m08:29:03.163271 [info ] [MainThread]: Using dbt_project.yml file at /home/ubuntu1234/Desktop/coding/bergen_bike_pipeline/dbt_project.yml
+[0m08:29:03.163750 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m08:29:03.164769 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.13916221, "process_user_time": 1.255558, "process_kernel_time": 0.282998, "process_mem_max_rss": "93800", "process_in_blocks": "8", "process_out_blocks": "8", "command_success": false}
+[0m08:29:03.165413 [debug] [MainThread]: Command `dbt debug` failed at 08:29:03.165308 after 0.14 seconds
+[0m08:29:03.165850 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x781144917390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7811410c3ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7811410c3190>]}
+[0m08:29:03.166296 [debug] [MainThread]: Flushing usage events
+[0m08:29:05.253791 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:20:53.178089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71419002af10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71419002ae50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714190023350>]}
+
+
+============================== 09:20:53.183359 | 666205cd-6c9c-4b86-bd22-c9468ef1127a ==============================
+[0m09:20:53.183359 [info ] [MainThread]: Running with dbt=1.9.0-b1
+[0m09:20:53.185273 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/ubuntu1234/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init bergen_bike_transforms', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:20:53.200152 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/ubuntu1234/.dbt')}
+[0m09:20:53.201216 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m09:20:53.205157 [debug] [MainThread]: Starter project path: /home/ubuntu1234/Desktop/coding/bergen_bike_pipeline/venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m09:20:53.213018 [info ] [MainThread]: 
+Your new dbt project "bergen_bike_transforms" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:20:53.214116 [info ] [MainThread]: Setting up your profile.
+[0m09:22:16.457630 [info ] [MainThread]: Profile bergen_bike_transforms written to /home/ubuntu1234/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:22:16.460820 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 83.35842, "process_user_time": 1.993967, "process_kernel_time": 0.434708, "process_mem_max_rss": "93220", "process_in_blocks": "6784", "process_out_blocks": "88"}
+[0m09:22:16.462949 [debug] [MainThread]: Command `dbt init` succeeded at 09:22:16.462507 after 83.36 seconds
+[0m09:22:16.464496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714193917410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71419002af10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x714193861450>]}
+[0m09:22:16.466236 [debug] [MainThread]: Flushing usage events
+[0m09:22:18.883612 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:23:52.676801 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x715157ec7c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x715158263d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x715158263c90>]}
+
+
+============================== 09:23:52.682138 | 403dc6f2-8cf0-4b3f-a1f8-db5601ac7918 ==============================
+[0m09:23:52.682138 [info ] [MainThread]: Running with dbt=1.9.0-b1
+[0m09:23:52.683324 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/ubuntu1234/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:23:52.698437 [info ] [MainThread]: dbt version: 1.9.0-b1
+[0m09:23:52.699413 [info ] [MainThread]: python version: 3.11.6
+[0m09:23:52.700108 [info ] [MainThread]: python path: /home/ubuntu1234/Desktop/coding/bergen_bike_pipeline/venv/bin/python3
+[0m09:23:52.700844 [info ] [MainThread]: os info: Linux-6.5.0-44-generic-x86_64-with-glibc2.38
+[0m09:23:52.848706 [info ] [MainThread]: Using profiles dir at /home/ubuntu1234/.dbt
+[0m09:23:52.849792 [info ] [MainThread]: Using profiles.yml file at /home/ubuntu1234/.dbt/profiles.yml
+[0m09:23:52.850511 [info ] [MainThread]: Using dbt_project.yml file at /home/ubuntu1234/Desktop/coding/bergen_bike_pipeline/dbt_project.yml
+[0m09:23:52.851405 [info ] [MainThread]: adapter type: postgres
+[0m09:23:52.852015 [info ] [MainThread]: adapter version: 1.8.2
+[0m09:23:52.852755 [info ] [MainThread]: Configuration:
+[0m09:23:52.853317 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m09:23:52.853844 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m09:23:52.854534 [info ] [MainThread]: Required dependencies:
+[0m09:23:52.855376 [debug] [MainThread]: Executing "git --help"
+[0m09:23:52.873707 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m09:23:52.874872 [debug] [MainThread]: STDERR: "b''"
+[0m09:23:52.875562 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m09:23:52.876314 [info ] [MainThread]: Connection:
+[0m09:23:52.877008 [info ] [MainThread]:   host: localhost
+[0m09:23:52.877568 [info ] [MainThread]:   port: 5432
+[0m09:23:52.878064 [info ] [MainThread]:   user: airflow
+[0m09:23:52.878551 [info ] [MainThread]:   database: airflow
+[0m09:23:52.879084 [info ] [MainThread]:   schema: public
+[0m09:23:52.879630 [info ] [MainThread]:   connect_timeout: 10
+[0m09:23:52.880259 [info ] [MainThread]:   role: None
+[0m09:23:52.880946 [info ] [MainThread]:   search_path: None
+[0m09:23:52.882592 [info ] [MainThread]:   keepalives_idle: 0
+[0m09:23:52.884211 [info ] [MainThread]:   sslmode: None
+[0m09:23:52.885496 [info ] [MainThread]:   sslcert: None
+[0m09:23:52.886804 [info ] [MainThread]:   sslkey: None
+[0m09:23:52.887996 [info ] [MainThread]:   sslrootcert: None
+[0m09:23:52.889190 [info ] [MainThread]:   application_name: dbt
+[0m09:23:52.890409 [info ] [MainThread]:   retries: 1
+[0m09:23:52.891558 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m09:23:52.903329 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m09:23:52.958081 [debug] [MainThread]: Using postgres connection "debug"
+[0m09:23:52.958953 [debug] [MainThread]: On debug: select 1 as id
+[0m09:23:52.959535 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:23:52.987538 [debug] [MainThread]: SQL status: SELECT 1 in 0.028 seconds
+[0m09:23:52.989416 [debug] [MainThread]: On debug: Close
+[0m09:23:52.990150 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m09:23:52.990842 [info ] [MainThread]: [31m1 check failed:[0m
+[0m09:23:52.991528 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/ubuntu1234/Desktop/coding/bergen_bike_pipeline/dbt_project.yml> not found
+
+[0m09:23:52.993431 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.40490797, "process_user_time": 2.136948, "process_kernel_time": 0.475321, "process_mem_max_rss": "100296", "process_in_blocks": "4624", "process_out_blocks": "32", "command_success": false}
+[0m09:23:52.994570 [debug] [MainThread]: Command `dbt debug` failed at 09:23:52.994401 after 0.41 seconds
+[0m09:23:52.995314 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m09:23:52.996137 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x715157eeb7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71515b717390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x715157b34450>]}
+[0m09:23:52.996993 [debug] [MainThread]: Flushing usage events
+[0m09:23:55.438936 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:01:30.721198 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d54216157d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d5421afe850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d54219d3d50>]}
+
+
+============================== 11:01:30.726687 | 132060ed-af2d-4a2f-b0f6-98870a3b82b7 ==============================
+[0m11:01:30.726687 [info ] [MainThread]: Running with dbt=1.9.0-b1
+[0m11:01:30.727992 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/ubuntu1234/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m11:01:30.729126 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/ubuntu1234/Desktop/coding/bergen_bike_pipeline/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:01:30.731037 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.0891825, "process_user_time": 2.006527, "process_kernel_time": 0.396499, "process_mem_max_rss": "88876", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m11:01:30.732332 [debug] [MainThread]: Command `dbt run` failed at 11:01:30.732128 after 0.09 seconds
+[0m11:01:30.733078 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d5424f13410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d542165fe90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d54219d3e10>]}
+[0m11:01:30.733950 [debug] [MainThread]: Flushing usage events
+[0m11:01:34.702699 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:22:27.911857 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x757e85cff9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x757e8593be10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x757e85969610>]}
+
+
+============================== 06:22:27.917414 | cbab946b-49ef-40f5-b9af-443b737642ca ==============================
+[0m06:22:27.917414 [info ] [MainThread]: Running with dbt=1.9.0-b1
+[0m06:22:27.918855 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/ubuntu1234/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init bergen_bike', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m06:22:27.935780 [debug] [MainThread]: Starter project path: /home/ubuntu1234/Desktop/coding/bergen_bike_pipeline/venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m06:22:27.942548 [info ] [MainThread]: 
+Your new dbt project "bergen_bike" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m06:22:27.944525 [info ] [MainThread]: Setting up your profile.
+[0m06:26:56.372921 [info ] [MainThread]: Profile bergen_bike written to /home/ubuntu1234/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m06:26:56.376244 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 268.5447, "process_user_time": 2.260426, "process_kernel_time": 0.356909, "process_mem_max_rss": "93056", "process_in_blocks": "120", "process_out_blocks": "80"}
+[0m06:26:56.379063 [debug] [MainThread]: Command `dbt init` succeeded at 06:26:56.378533 after 268.55 seconds
+[0m06:26:56.381080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x757e8598b850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x757e8589f310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x757e8915d610>]}
+[0m06:26:56.382283 [debug] [MainThread]: Flushing usage events
+[0m06:26:57.886374 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:27:46.589733 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe5c2830210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe5c282ba50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe5c282aad0>]}
+
+
+============================== 06:27:46.595075 | 3dcd4b77-6b97-426f-a5de-fe6c2131cb6c ==============================
+[0m06:27:46.595075 [info ] [MainThread]: Running with dbt=1.9.0-b1
+[0m06:27:46.596492 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/home/ubuntu1234/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m06:27:46.612751 [info ] [MainThread]: dbt version: 1.9.0-b1
+[0m06:27:46.613696 [info ] [MainThread]: python version: 3.11.6
+[0m06:27:46.614446 [info ] [MainThread]: python path: /home/ubuntu1234/Desktop/coding/bergen_bike_pipeline/venv/bin/python3
+[0m06:27:46.615241 [info ] [MainThread]: os info: Linux-6.5.0-44-generic-x86_64-with-glibc2.38
+[0m06:27:46.724072 [info ] [MainThread]: Using profiles dir at /home/ubuntu1234/.dbt
+[0m06:27:46.725127 [info ] [MainThread]: Using profiles.yml file at /home/ubuntu1234/.dbt/profiles.yml
+[0m06:27:46.725782 [info ] [MainThread]: Using dbt_project.yml file at /home/ubuntu1234/Desktop/coding/bergen_bike_pipeline/dbt_project.yml
+[0m06:27:46.726535 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m06:27:46.728575 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.23375455, "process_user_time": 2.262041, "process_kernel_time": 0.452408, "process_mem_max_rss": "94056", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m06:27:46.729888 [debug] [MainThread]: Command `dbt debug` failed at 06:27:46.729683 after 0.24 seconds
+[0m06:27:46.730684 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe5c2881dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe5c6117390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe5c61b9a10>]}
+[0m06:27:46.731898 [debug] [MainThread]: Flushing usage events
+[0m06:27:48.881782 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:29:03.037663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7f7154b490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7f71607610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7f71501090>]}
+
+
+============================== 06:29:03.043252 | 6d971e96-1d3e-48d6-afda-8f6472d86cb4 ==============================
+[0m06:29:03.043252 [info ] [MainThread]: Running with dbt=1.9.0-b1
+[0m06:29:03.044610 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/ubuntu1234/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m06:29:03.060696 [info ] [MainThread]: dbt version: 1.9.0-b1
+[0m06:29:03.062279 [info ] [MainThread]: python version: 3.11.6
+[0m06:29:03.063667 [info ] [MainThread]: python path: /home/ubuntu1234/Desktop/coding/bergen_bike_pipeline/venv/bin/python3
+[0m06:29:03.065497 [info ] [MainThread]: os info: Linux-6.5.0-44-generic-x86_64-with-glibc2.38
+[0m06:29:03.157559 [info ] [MainThread]: Using profiles dir at /home/ubuntu1234/.dbt
+[0m06:29:03.158457 [info ] [MainThread]: Using profiles.yml file at /home/ubuntu1234/.dbt/profiles.yml
+[0m06:29:03.159003 [info ] [MainThread]: Using dbt_project.yml file at /home/ubuntu1234/Desktop/coding/bergen_bike_pipeline/dbt_project.yml
+[0m06:29:03.159704 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m06:29:03.161551 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.2052085, "process_user_time": 2.257181, "process_kernel_time": 0.432395, "process_mem_max_rss": "93252", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m06:29:03.162964 [debug] [MainThread]: Command `dbt debug` failed at 06:29:03.162558 after 0.21 seconds
+[0m06:29:03.163869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7f71501150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7f74e133d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7f71552090>]}
+[0m06:29:03.164689 [debug] [MainThread]: Flushing usage events
+[0m06:29:04.862421 [debug] [MainThread]: An error was encountered while trying to flush usage events

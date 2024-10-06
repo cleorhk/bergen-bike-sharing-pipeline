@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bergen_bike
+    database: airflow        # Change this if your actual database name is different
+    schema: public           # Default schema in PostgreSQL is public, ensure this matches
+    tables:
+      - name: bergen_bike_data  # The name of your table in PostgreSQL
